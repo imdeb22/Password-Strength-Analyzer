@@ -4,7 +4,7 @@ A sleek, lightweight, terminal-inspired password security evaluation tool. It an
 
 ---
 
-## 🛠️ Features
+## Features
 
 * **Real-Time Entropy Calculation:** Computes the password's information entropy in bits dynamically as you type.
 * **Cyberpunk / Monospace Aesthetic:** Designed with a clean, dark-mode terminal UI built for developers and security enthusiasts.
@@ -20,7 +20,7 @@ A sleek, lightweight, terminal-inspired password security evaluation tool. It an
 
 ---
 
-## ⚙️ How the Entropy Algorithm Works
+## How the Entropy Algorithm Works
 
 The application calculates strength using information theory. The bit-entropy value is evaluated via:
 
@@ -39,11 +39,11 @@ Where:
 
 | Entropy Value (Bits) | Security Rating | UI Indicator |
 | :--- | :--- | :--- |
-| **Matches Database** | `REUSED` | ⚪ Muted Gray |
-| **< 40** | `CRITICAL` | 🔴 Bright Red |
-| **40 - 59** | `WEAK` | 🟠 Orange |
-| **60 - 79** | `STRONG` | 🟡 Yellow |
-| **80+** | `SECURE` | 🟢 Bright Green |
+| **Matches Database** | `REUSED` | Muted Gray |
+| **< 40** | `CRITICAL` | Bright Red |
+| **40 - 59** | `WEAK` | Orange |
+| **60 - 79** | `STRONG` | Yellow |
+| **80+** | `SECURE` | Bright Green |
 
 ---
 
@@ -59,6 +59,6 @@ This tool is entirely self-contained within a single vanilla HTML file, making i
 
 ---
 
-## 📄 License
+## License
 
 This utility is open-source and free to use for personal or professional compliance profiling. Feel free to tweak the `historyDatabase` or `wordList` arrays in the script block to broaden its analysis scope!
